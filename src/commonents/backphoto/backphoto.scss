@@ -1,0 +1,192 @@
+.backphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+    .photofirst {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        height: 100vh;
+
+        .left {
+            img {
+                left: 400px;
+                position: relative;
+                height: 600px;
+                width: 500px;
+                object-fit: cover;
+                border-radius: 50px;
+                z-index: 1;
+                transform-origin: left bottom;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+            }
+
+        }
+
+        .mindle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .first {
+                color: #1f4874;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 20px;
+            }
+
+            .second {
+                position: relative;
+                top: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: #1f4874;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 60px;
+
+                h1 {
+                    margin: 0;
+                }
+
+                img {
+                    height: 0px;
+
+                }
+            }
+
+            .third {
+                span {
+                    position: relative;
+                    top: 160px;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    font-size: 30px;
+                    color: #1f4874;
+                    font-family: 'Cormorant Garamond', serif;
+                    cursor: pointer;
+                    border: 1px solid #1f4874;
+                    border-radius: 40px;
+                }
+            }
+        }
+
+        .right {
+            img {
+                right: 400px;
+                position: relative;
+                height: 600px;
+                width: 500px;
+                object-fit: cover;
+                border-radius: 50px;
+                transform-origin: right bottom;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+            }
+
+
+        }
+    }
+
+    .photosecond {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+        height: 100vh;
+
+        .left {
+            img {
+                left: 400px;
+                position: relative;
+                height: 600px;
+                width: 500px;
+                object-fit: cover;
+                border-radius: 50px;
+                z-index: 1;
+                transform-origin: left bottom;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+                // transform: rotate(-5deg) translateX(-600px);
+            }
+
+        }
+
+        .mindle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .first {
+                color: #1f4874;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 20px;
+            }
+
+            .second {
+                position: relative;
+                top: 150px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: #1f4874;
+                font-family: 'Cormorant Garamond', serif;
+                font-size: 60px;
+
+                h1 {
+                    margin: 0;
+                }
+
+                img {
+                    height: 0px;
+
+                }
+            }
+
+            .third {
+                span {
+                    position: relative;
+                    top: 160px;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    font-size: 30px;
+                    color: #1f4874;
+                    font-family: 'Cormorant Garamond', serif;
+                    cursor: pointer;
+                    border: 1px solid #1f4874;
+                    border-radius: 40px;
+                }
+            }
+        }
+
+        .right {
+            img {
+                right: 400px;
+                position: relative;
+                height: 600px;
+                width: 500px;
+                object-fit: cover;
+                border-radius: 50px;
+                transform-origin: right bottom;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+            }
+
+
+        }
+    }
+
+}

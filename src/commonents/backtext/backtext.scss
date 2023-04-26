@@ -1,0 +1,114 @@
+.backtext {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+
+    .first {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h1 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1f4874;
+            font-size: 80px;
+            font-family: 'Cormorant Garamond', serif;
+
+
+            .img-first {
+                margin: 10px;
+                height: 80px;
+                width: 120px;
+                object-fit: cover;
+                border-radius: 10px;
+                transition: 0.5s ease-in-out forwards;
+            }
+
+            .img-first:hover {
+                animation: bigleft 0.5s ease-in-out forwards;
+            }
+
+            .img-second {
+                margin: 10px;
+                height: 80px;
+                width: 120px;
+                object-fit: cover;
+                border-radius: 10px;
+                transition: 0.5s ease-in-out forwards;
+            }
+
+            .img-second:hover {
+                animation: bigright 0.5s ease-in-out forwards;
+            }
+
+            .img-third {
+                margin: 10px;
+                height: 80px;
+                width: 120px;
+                object-fit: cover;
+                border-radius: 10px;
+                transition: 0.5s ease-in-out forwards;
+            }
+
+            .img-third:hover {
+                animation: bigleft 0.5s ease-in-out forwards;
+            }
+
+            @keyframes bigleft {
+                0% {}
+
+                100% {
+                    transform: scale(1.8) rotate(-5deg);
+                }
+            }
+
+            @keyframes bigright {
+                0% {}
+
+                100% {
+                    transform: scale(1.8) rotate(5deg);
+                }
+            }
+
+
+        }
+    }
+
+    .second {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+        position: relative;
+        top: 100px;
+
+        h2 {
+            font-size: 30px;
+            color: #1f4874;
+            font-family: 'Cormorant Garamond', serif;
+        }
+    }
+
+    span {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 150px;
+        font-size: 30px;
+        color: #1f4874;
+        font-family: 'Cormorant Garamond', serif;
+        cursor: pointer;
+        border: 1px solid #1f4874;
+        border-radius: 40px;
+    }
+}
